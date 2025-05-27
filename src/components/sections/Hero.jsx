@@ -98,6 +98,7 @@ const Title = styled.div`
   font-size: 50px;
   color: ${({ theme }) => theme.text_primary};
   line-height: 68px;
+  margin-bottom: 16px;
 
   @media (max-width: 960px) {
     text-align: center;
@@ -109,6 +110,7 @@ const Title = styled.div`
 
 const TextLoop = styled.div`
   font-weight: 600;
+  padding-bottom:20px:
   font-size: 32px;
   display: flex;
   gap: 12px;
@@ -124,21 +126,9 @@ const TextLoop = styled.div`
 `;
 
 const Span = styled.div`
+  margin-bottom: 12px;
   cursor: pointer;
   color: ${({ theme }) => theme.primary};
-`;
-
-const SubTitle = styled.div`
-  font-size: 20px;
-  line-height: 32px;
-  margin-bottom: 42px;
-  color: ${({ theme }) => theme.text_primary + "95"};
-
-  @media (max-width: 960px) {
-    text-align: center;
-    font-size: 16px;
-    line-height: 32px;
-  }
 `;
 
 const Img = styled.img`
@@ -167,28 +157,28 @@ const Hero = () => {
 
         <HeroInnerContainer>
           <HeroLeftContainer>
-            <Title>
-              Hi, I am <br /> {Bio.name}
-            </Title>
-
-            <TextLoop>
-              I am a{" "}
-              <Span>
-                <Typewriter
-                  options={{
-                    strings: Bio.roles,
-                    autoStart: true,
-                    loop: true,
-                  }}
-                />
-              </Span>
-            </TextLoop>
-          </HeroLeftContainer>
-
-          <HeroRightContainer>
             <Tilt>
               <Img src={HeroImg} alt={Bio.name} />
             </Tilt>
+          </HeroLeftContainer>
+          <HeroRightContainer>
+            <Title>
+              Hi, I am <br /> {Bio.name}
+            </Title>
+            <TextLoop>
+              <div>I am a</div>
+              <div>
+                <Span>
+                  <Typewriter
+                    options={{
+                      strings: Bio.roles,
+                      autoStart: true,
+                      loop: true,
+                    }}
+                  />
+                </Span>
+              </div>
+            </TextLoop>
           </HeroRightContainer>
         </HeroInnerContainer>
       </HeroContainer>

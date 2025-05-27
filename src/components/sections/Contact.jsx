@@ -46,7 +46,7 @@ const Desc = styled.div`
   }
 `;
 
-const ContactForm = styled.div`
+const ContactForm = styled.form`
   width: 95%;
   max-width: 600px;
   display: flex;
@@ -103,6 +103,16 @@ const ContactButton = styled.input`
   color: ${({ theme }) => theme.text_primary};
   font-size: 18px;
   font-weight: 600;
+`;
+
+const SuccessMessage = styled.div`
+  color: #4BB543; /* green color for success */
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+  font-weight: 600;
+  font-size: 18px;
 `;
 
 /* ------------------------------ Main Component ------------------------------ */
@@ -190,6 +200,7 @@ const Contact = () => {
             <ErrorMessage>
               <FiAlertCircle /> {formErrors.email}
             </ErrorMessage>
+            
           )}
 
           <ContactInput name="subject" placeholder="Subject" />

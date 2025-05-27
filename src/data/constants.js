@@ -266,7 +266,7 @@ export const Bio = {
     date: "Nov 2024 - Jan 2025",
       description:
       'Phoenix Watches E-commerce App This is a full-stack web application for an online watch store. It allows users to browse, purchase, and review watches while providing an admin dashboard for managing products, categories, users, sales reports, and more.',
-    image: "../../src/images/Phoenix.png",
+    image: "../../src/assets/Phoenix.png",
     tags: ["Node.js", "Express.js", "JavaScript", "Tailwind CSS"],
     category: "WEB APP'S",
     github: "https://github.com/ancypeter2k/Phoenixx/",
@@ -279,7 +279,7 @@ export const Bio = {
       description:
       " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
       image:
-      "../../src/images/To-do React.png",
+      "../../src/assets/To-do React.png",
     tags: ["React Js", "Local Storage", "Node JS"],
     category: "MERN",
     github: "https://github.com/ancypeter2k/To-do",
@@ -292,7 +292,7 @@ export const Bio = {
       description:
       "A Netflix-Inspired Streaming Web App built using React.js, Firebase, and TMDB API. The application features a clean and modular frontend where users can browse real-time movie categories such as Top Rated, Trending, and Originals. It includes a login page with Firebase Authentication and is hosted on Firebase for seamless deployment. The UI is fully responsive, providing a smooth experience across all devices. Scrollable carousels with hover effects and modals enhance the movie browsing experience. Users can also view trailer previews where available. The app is optimized for performance using Vite and uses React Hooks (useState, useEffect) for efficient state management.",
       image:
-      "../../src/images/NetFlix.png",
+      "../../src/assets/NetFlix.png",
     tags: ["React Js", "Local Storage", "AWS Auth", "Node JS", "Firebase"],
     category: "MERN",
     github: "https://github.com/ancypeter2k/Netflix--clone",
@@ -305,7 +305,7 @@ export const Bio = {
       description:
       "An OLX Clone built using React, TypeScript, and Firebase, designed to simulate real-world product listing and user interaction features. It includes user authentication, real-time database integration, search functionality, and dynamic product uploads with API-driven image rendering. This project strengthened my understanding of TypeScript, React Hooks, and end-to-end application development.",
       image:
-      "../../src/images/OLX.png",
+      "../../src/assets/OLX.png",
     tags: ["React Js", "Local Storage", "AWS Auth", "Node JS", "Firebase"],
     category: "MERN",
     github: "https://github.com/ancypeter2k/OLX-clone",
@@ -318,7 +318,7 @@ export const Bio = {
       description:
       "A simple yet functional To-Do List web app built using HTML, CSS, and JavaScript, with data persistence through Local Storage. Users can add, edit, delete, and mark tasks as complete, with changes saved even after the browser is closed. The clean UI ensures a smooth task management experience without any backend integration.",
       image:
-      "../../src/images/To-do List.png",
+      "../../src/assets/To-do List.png",
     tags: ["JavaScript", "Local Storage",  "HTML", "CSS"],
     category: "FRONTEND WEB DEVELOPMENT",
     github: "https://github.com/ancypeter2k/To-do",
@@ -331,7 +331,7 @@ export const Bio = {
       description:
       "A simple full-stack blog application built using JavaScript, Node.js, Express.js, and MongoDB. It allows users to create, read, and delete blog posts, with data stored securely in MongoDB. Nodemailer is integrated to enable contact or feedback forms that send automated email responses.",
       image:
-      "../../src/images/Simple blog.png",
+      "../../src/assets/Simple blog.png",
     tags: [
       "JavaScript",
       "MongoDb",
@@ -350,7 +350,7 @@ export const Bio = {
       description:
       'A fully functional shopping cart web app built using React.js for the frontend and Node.js, Express.js, and MongoDB for the backend. Users can browse products, add items to the cart, and proceed with simulated checkout, while Tailwind CSS ensures a clean and responsive UI. Nodemailer is used to send order confirmation emails, and all cart and user data are managed securely in the database.',
       image:
-      "../../src/images/Shopping cart.png",
+      "../../src/assets/Shopping cart.png",
     tags: [
       "JavaScript",
       "MongoDb",
